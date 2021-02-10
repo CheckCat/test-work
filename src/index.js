@@ -20,9 +20,3 @@ FetchData(backURL, root, AppModules).catch(() => {
 
   root.append(Error404())
 })
-FetchData(`https://xkcd.com/${hash ? hash+'/' : ''}info.0.json`, root, AppModules).catch(() => {
-  const elems = Array.from(root.children)
-  elems.forEach(item=>item.remove())
-
-  root.append(Error404())
-})
