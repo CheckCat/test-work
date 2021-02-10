@@ -1,8 +1,8 @@
-export const Description = ({transcript}) => {
+export const Description = ({ transcript }) => {
   const classNamesParent = ['description'];
   transcript = transcript.split(/\n/)
-  
-  const description = transcript.reduce((accum, item)=>{
+
+  const description = transcript.reduce((accum, item) => {
     const classNamesChild = ['description__elem'];
     const paragraph = document.createElement('p')
     paragraph.textContent = item

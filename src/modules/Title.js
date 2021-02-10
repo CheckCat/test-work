@@ -1,4 +1,4 @@
-export const Title = ({title}) => {
+export const Title = ({ title }) => {
   const classNames = ['title'];
   const titleElem = document.createElement('h1')
   titleElem.textContent = title

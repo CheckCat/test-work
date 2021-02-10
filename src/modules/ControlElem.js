@@ -1,8 +1,8 @@
-export const ControlElem = (url, text, num) => {
+export const ControlElem = (url, text, num, numOfLast) => {
   const classNames = ['setpack__elem'];
   const btn = document.createElement('a')
   btn.textContent = text
-  if(num<1 || num>2421) {
+  if (num < 1 || num > numOfLast) {
     btn.classList.add('deactive')
     btn.onclick = () => false
   }

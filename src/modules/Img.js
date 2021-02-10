@@ -1,4 +1,4 @@
-export const Img = ({img, alt}) => {
+export const Img = ({ img, alt }) => {
   const classNames = ['content-image'];
   const image = document.createElement('img')
   image.src = img
