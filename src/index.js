@@ -7,6 +7,7 @@ import { Description } from './modules/Description'
 import { FullDate } from './modules/FullDate'
 import { Error404 } from './modules/Error404'
 import './style/style.css'
+import './style/adaptive.css'
 
 const frontURL = new URL(window.location.href)
 const hash = frontURL.searchParams.get('num')

@@ -1,0 +1,36 @@
+@media (max-width: 1024px) {
+    .setpack {
+        width: 77.7%
+    }
+}
+
+@media (max-width: 768px) {
+    #root {
+        padding: 0 10px;
+    }
+    .setpack {
+        width: 100%
+    }
+    .description__elem {
+        margin-top: 7px;
+    }
+}
+
+@media (max-width: 576px) {
+    .setpack__elem {
+        padding: 8px 20px;
+    }
+}
+
+@media (max-width: 450px) {
+    .setpack__elem {
+        padding: 8px 15px;
+    }
+}
+
+@media (max-width: 450px) {
+    .setpack__elem {
+        padding: 8px 10px;
+    }
+}
+
